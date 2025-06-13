@@ -1,10 +1,7 @@
 .form {
   max-width: 385px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__fieldset {
@@ -21,7 +18,12 @@
   margin: 8px 0 32px;
   border: 1px solid #838383;
   border-radius: 4px;
-  font-size: 14px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
 }
 
 .form__button {
@@ -32,9 +34,8 @@
   margin-bottom: 32px;
   background-color: #1878dc;
   color: white;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 20px;
+  line-height: 30px;
   cursor: pointer;
   transition: background-color 0.5s;
 }
@@ -53,8 +54,4 @@
   display: flex;
   gap: 12px;
   justify-content: center;
-}
-
-.form__button:hover {
-  background-color: #3f96f3;
 }
