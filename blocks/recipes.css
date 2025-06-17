@@ -16,17 +16,17 @@
   color: #fff;
   max-width: 580px;
   line-height: 52px;
-  margin-bottom: 24px;
+  margin: 0 0 24px;
 }
 
 .recipes__subtitle {
-  font-family: "Noto Seriff";
+  font-family: "Noto Serif", "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   max-width: 438px;
   line-height: 30px;
-  margin-bottom: 80px;
+  margin: 0 0 80px;
 }
 
 .recipes__videos {
@@ -40,8 +40,8 @@
 
 .recipes__iframe {
   border: none;
-  width: 560px;
-  height: 315px;
+  width: 480px;
+  height: 273px;
 }
 
 .recipes__video-caption {

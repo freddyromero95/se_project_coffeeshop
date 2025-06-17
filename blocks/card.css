@@ -11,17 +11,16 @@
 }
 
 .card__title {
-margin: 0 0 32px;
- font-family: 'Inter';
- font-weight: bold;
- font-size: 20px;
- line-height: 30px;
+  margin: 0 0 32px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list-item {
   display: flex;
   gap: 10px;
-  font-family: 'Noto Serif';
+  font-family: "Noto Serif", "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -30,4 +29,3 @@ margin: 0 0 32px;
   flex-grow: 1;
   border-bottom: 1px solid black;
 }
-
